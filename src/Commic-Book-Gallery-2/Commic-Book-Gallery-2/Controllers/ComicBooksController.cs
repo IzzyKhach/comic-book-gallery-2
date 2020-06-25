@@ -16,12 +16,14 @@ namespace Commic_Book_Gallery_2.Controllers
 
         public ActionResult Detail()
         {
-            if (DateTime.Today.DayOfWeek == DayOfWeek.Wednesday)
-            {
-                return Redirect("/");
-            }
-            
-            return Content("Hello from the comic books controller!");
+            //if (DateTime.Today.DayOfWeek == DayOfWeek.Thursday)
+            //{
+            //    return Redirect("/");
+            //}
+
+            //return Content("Hello from the comic books controller!");
+
+            return View();  //this goes to html view, prev does not
         }
     }
 }
