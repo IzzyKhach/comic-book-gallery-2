@@ -23,7 +23,8 @@ namespace Commic_Book_Gallery_2.Controllers
 
             //return Content("Hello from the comic books controller!");
 
-          
+            ViewBag.Title = "Super Mario 64";
+            ViewBag.Description = "Super Mario 64 is a 1996 platform video game developed and published by Nintendo for the Nintendo 64.";
 
             ViewBag.SeriesTitle = "The amazing Spider-Mann";
             ViewBag.IssueNumber = 700;
