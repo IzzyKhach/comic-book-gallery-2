@@ -9,7 +9,6 @@ C:\Users\Israel HP\source\repos\IzzyKhach\comic-book-gallery-2\src\Commic-Book-G
 C:\Users\Israel HP\source\repos\IzzyKhach\comic-book-gallery-2\src\Commic-Book-Gallery-2\Commic-Book-Gallery-2\bin\Debug\netcoreapp3.1\Commic-Book-Gallery-2.pdb
 C:\Users\Israel HP\source\repos\IzzyKhach\comic-book-gallery-2\src\Commic-Book-Gallery-2\Commic-Book-Gallery-2\bin\Debug\netcoreapp3.1\Commic-Book-Gallery-2.Views.dll
 C:\Users\Israel HP\source\repos\IzzyKhach\comic-book-gallery-2\src\Commic-Book-Gallery-2\Commic-Book-Gallery-2\bin\Debug\netcoreapp3.1\Commic-Book-Gallery-2.Views.pdb
-C:\Users\Israel HP\source\repos\IzzyKhach\comic-book-gallery-2\src\Commic-Book-Gallery-2\Commic-Book-Gallery-2\obj\Debug\netcoreapp3.1\Commic-Book-Gallery-2.csprojAssemblyReference.cache
 C:\Users\Israel HP\source\repos\IzzyKhach\comic-book-gallery-2\src\Commic-Book-Gallery-2\Commic-Book-Gallery-2\obj\Debug\netcoreapp3.1\Commic-Book-Gallery-2.AssemblyInfoInputs.cache
 C:\Users\Israel HP\source\repos\IzzyKhach\comic-book-gallery-2\src\Commic-Book-Gallery-2\Commic-Book-Gallery-2\obj\Debug\netcoreapp3.1\Commic-Book-Gallery-2.AssemblyInfo.cs
 C:\Users\Israel HP\source\repos\IzzyKhach\comic-book-gallery-2\src\Commic-Book-Gallery-2\Commic-Book-Gallery-2\obj\Debug\netcoreapp3.1\Commic-Book-Gallery-2.RazorAssemblyInfo.cache

@@ -13,5 +13,24 @@ namespace Commic_Book_Gallery_2.Models
         public string DescriptionHtml { get; set; }
         public Artist[] Artists { get; set; }
         public bool Favorite { get; set; }
+
+        public string DisplayText
+        {
+            //by only defining a getter and not a setter, the variable is read only
+            get
+            {
+                return SeriesTitle + " #" + IssueNumber;
+            }
+        }
+
+        // series-title-issuenumber.jpg
+        public string CoverImageFileName
+        {
+            //by only defining a getter and not a setter, the variable is read only
+            get
+            {
+                return SeriesTitle.Replace(" ", "-").ToLower() + "-" + IssueNumber + ".jpg";
+            }
+        }
     }
 }
