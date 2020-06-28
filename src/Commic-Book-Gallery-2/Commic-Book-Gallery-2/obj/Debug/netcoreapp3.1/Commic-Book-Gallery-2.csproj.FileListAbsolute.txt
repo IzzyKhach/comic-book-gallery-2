@@ -108,3 +108,4 @@ C:\Users\Israel HP\source\repos\IzzyKhach\comic-book-gallery-2\src\Commic-Book-G
 C:\Users\Israel HP\source\repos\IzzyKhach\comic-book-gallery-2\src\Commic-Book-Gallery-2\Commic-Book-Gallery-2\obj\Debug\netcoreapp3.1\Commic-Book-Gallery-2.csproj.CoreCompileInputs.cache
 C:\Users\Israel HP\source\repos\IzzyKhach\comic-book-gallery-2\src\Commic-Book-Gallery-2\Commic-Book-Gallery-2\obj\Debug\netcoreapp3.1\Commic-Book-Gallery-2.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Israel HP\source\repos\IzzyKhach\comic-book-gallery-2\src\Commic-Book-Gallery-2\Commic-Book-Gallery-2\obj\Debug\netcoreapp3.1\Razor\Views\ComicBooks\Detail.cshtml.g.cs
+C:\Users\Israel HP\source\repos\IzzyKhach\comic-book-gallery-2\src\Commic-Book-Gallery-2\Commic-Book-Gallery-2\obj\Debug\netcoreapp3.1\Commic-Book-Gallery-2.csprojAssemblyReference.cache

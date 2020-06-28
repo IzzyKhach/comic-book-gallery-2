@@ -40,20 +40,20 @@ namespace Commic_Book_Gallery_2.Controllers
             
             };
 
-            ViewBag.Title = "Super Mario 64";
-            ViewBag.Description = "Super Mario 64 is a 1996 platform video game developed and published by Nintendo for the Nintendo 64.";
+            //ViewBag.Title = "Super Mario 64";
+            //ViewBag.Description = "Super Mario 64 is a 1996 platform video game developed and published by Nintendo for the Nintendo 64.";
 
-            ViewBag.SeriesTitle = "The amazing Spider-Mann";
-            ViewBag.IssueNumber = 700;
-            ViewBag.Description = "<p>Fiinal issue! Witness the final hours of Doctor Octopus' life and his one, last, great act of revenge! Even if Spider-Man survives... <strong>will Peter Parker?</strong></p>";
-            ViewBag.Artists = new string[]
-            {
-                "Script: Dan Slott",
-                "Pencils: Humberto Ramos",
-                "Inks: Victor Olazaba",
-                "Colors: Edgar Delgado",
-                "Letters: Chris Eliopoulos"
-            };
+            //ViewBag.SeriesTitle = "The amazing Spider-Mann";
+            //ViewBag.IssueNumber = 700;
+            //ViewBag.Description = "<p>Fiinal issue! Witness the final hours of Doctor Octopus' life and his one, last, great act of revenge! Even if Spider-Man survives... <strong>will Peter Parker?</strong></p>";
+            //ViewBag.Artists = new string[]
+            //{
+            //    "Script: Dan Slott",
+            //    "Pencils: Humberto Ramos",
+            //    "Inks: Victor Olazaba",
+            //    "Colors: Edgar Delgado",
+            //    "Letters: Chris Eliopoulos"
+            //};
 
             return View(comicBook);  //this goes to html view, prev does not
         }
