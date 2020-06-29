@@ -1,4 +1,5 @@
-﻿using Commic_Book_Gallery_2.Models;
+﻿using Commic_Book_Gallery_2.Data;
+using Commic_Book_Gallery_2.Models;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
@@ -11,11 +12,18 @@ namespace Commic_Book_Gallery_2.Controllers
     {
         //public string Detail()
         //{
-            
+
         //    return "Hello from the comic books controller!";
         //}
 
-        public ActionResult Detail()
+        private ComicBookRepository _comicBookRepository = null;
+
+        public ComicBooksController()
+        {
+            _comicBookRepository = new ComicBookRepository();
+        }
+
+        public ActionResult Detail(int id)
         {
             //if (DateTime.Today.DayOfWeek == DayOfWeek.Thursday)
             //{
@@ -24,21 +32,29 @@ namespace Commic_Book_Gallery_2.Controllers
 
             //return Content("Hello from the comic books controller!");
 
-            var comicBook = new ComicBook()
-            {
+            //if (id == null)
+            //{
+            //    return HttpNotFound();
+            //}
+
+            var comicBook = _comicBookRepository.GetComicBook(id); //id.Value also works on nullable
                 
-                SeriesTitle = "The amazing Spider-Mann",
-                IssueNumber = 700,
-                DescriptionHtml = "<p>Fiinal issue! Witness the final hours of Doctor Octopus' life and his one, last, great act of revenge! Even if Spider-Man survives... <strong>will Peter Parker?</strong></p>",
-                Artists = new Artist[] {
-                    new Artist() { Role = "Script", Name = "Dan Slott" },
-                    new Artist() { Role = "Pencils", Name = "Humberto Ramos" },
-                    new Artist() { Role = "Inks", Name = "Victor Olazaba" },
-                    new Artist() { Role = "Colors", Name = "Edgar Delgado" },
-                    new Artist() { Role = "Letters", Name = "Chris Eliopoulos" }
-                }
+                
+            //    new ComicBook()
+            //{
+                
+            //    SeriesTitle = "The amazing Spider-Mann",
+            //    IssueNumber = 700,
+            //    DescriptionHtml = "<p>Fiinal issue! Witness the final hours of Doctor Octopus' life and his one, last, great act of revenge! Even if Spider-Man survives... <strong>will Peter Parker?</strong></p>",
+            //    Artists = new Artist[] {
+            //        new Artist() { Role = "Script", Name = "Dan Slott" },
+            //        new Artist() { Role = "Pencils", Name = "Humberto Ramos" },
+            //        new Artist() { Role = "Inks", Name = "Victor Olazaba" },
+            //        new Artist() { Role = "Colors", Name = "Edgar Delgado" },
+            //        new Artist() { Role = "Letters", Name = "Chris Eliopoulos" }
+            //    }
             
-            };
+            //};
 
             //ViewBag.Title = "Super Mario 64";
             //ViewBag.Description = "Super Mario 64 is a 1996 platform video game developed and published by Nintendo for the Nintendo 64.";
@@ -56,6 +72,11 @@ namespace Commic_Book_Gallery_2.Controllers
             //};
 
             return View(comicBook);  //this goes to html view, prev does not
+        }
+
+        private ActionResult HttpNotFound()
+        {
+            throw new NotImplementedException();
         }
     }
 }
