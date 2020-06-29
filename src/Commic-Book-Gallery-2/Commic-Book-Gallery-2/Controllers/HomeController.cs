@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using Commic_Book_Gallery_2.Models;
+using Commic_Book_Gallery_2.Data;
 
 namespace Commic_Book_Gallery_2.Controllers
 {
@@ -13,15 +14,29 @@ namespace Commic_Book_Gallery_2.Controllers
     {
         private readonly ILogger<HomeController> _logger;
 
-        public HomeController(ILogger<HomeController> logger)
+        //public HomeController(ILogger<HomeController> logger)
+        //{
+        //    _logger = logger;
+        //}
+
+        private ComicBookRepository _comicBookRepository = null;
+
+        public HomeController()
         {
-            _logger = logger;
+            _comicBookRepository = new ComicBookRepository();
         }
 
-        public IActionResult Index()
+        public ActionResult Index()
         {
-            return View();
+            var comicBooks = _comicBookRepository.GetComicBooks();
+
+            return View(comicBooks);
         }
+
+        //public IActionResult Index()
+        //{
+        //    return View();
+        //}
 
         public IActionResult Privacy()
         {

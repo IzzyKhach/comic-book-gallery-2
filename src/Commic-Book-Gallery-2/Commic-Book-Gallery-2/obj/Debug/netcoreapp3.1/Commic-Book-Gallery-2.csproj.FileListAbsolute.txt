@@ -16,7 +16,6 @@ C:\Users\Israel HP\source\repos\IzzyKhach\comic-book-gallery-2\src\Commic-Book-G
 C:\Users\Israel HP\source\repos\IzzyKhach\comic-book-gallery-2\src\Commic-Book-Gallery-2\Commic-Book-Gallery-2\obj\Debug\netcoreapp3.1\Commic-Book-Gallery-2.TagHelpers.input.cache
 C:\Users\Israel HP\source\repos\IzzyKhach\comic-book-gallery-2\src\Commic-Book-Gallery-2\Commic-Book-Gallery-2\obj\Debug\netcoreapp3.1\Commic-Book-Gallery-2.TagHelpers.output.cache
 C:\Users\Israel HP\source\repos\IzzyKhach\comic-book-gallery-2\src\Commic-Book-Gallery-2\Commic-Book-Gallery-2\obj\Debug\netcoreapp3.1\Commic-Book-Gallery-2.RazorCoreGenerate.cache
-C:\Users\Israel HP\source\repos\IzzyKhach\comic-book-gallery-2\src\Commic-Book-Gallery-2\Commic-Book-Gallery-2\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
 C:\Users\Israel HP\source\repos\IzzyKhach\comic-book-gallery-2\src\Commic-Book-Gallery-2\Commic-Book-Gallery-2\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
 C:\Users\Israel HP\source\repos\IzzyKhach\comic-book-gallery-2\src\Commic-Book-Gallery-2\Commic-Book-Gallery-2\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
 C:\Users\Israel HP\source\repos\IzzyKhach\comic-book-gallery-2\src\Commic-Book-Gallery-2\Commic-Book-Gallery-2\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
@@ -109,3 +108,4 @@ C:\Users\Israel HP\source\repos\IzzyKhach\comic-book-gallery-2\src\Commic-Book-G
 C:\Users\Israel HP\source\repos\IzzyKhach\comic-book-gallery-2\src\Commic-Book-Gallery-2\Commic-Book-Gallery-2\obj\Debug\netcoreapp3.1\Commic-Book-Gallery-2.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Israel HP\source\repos\IzzyKhach\comic-book-gallery-2\src\Commic-Book-Gallery-2\Commic-Book-Gallery-2\obj\Debug\netcoreapp3.1\Razor\Views\ComicBooks\Detail.cshtml.g.cs
 C:\Users\Israel HP\source\repos\IzzyKhach\comic-book-gallery-2\src\Commic-Book-Gallery-2\Commic-Book-Gallery-2\obj\Debug\netcoreapp3.1\Commic-Book-Gallery-2.csprojAssemblyReference.cache
+C:\Users\Israel HP\source\repos\IzzyKhach\comic-book-gallery-2\src\Commic-Book-Gallery-2\Commic-Book-Gallery-2\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
