@@ -21,13 +21,15 @@
         @foreach (var comicBook in Model)
         {
             <div class="col-md-3">
-                <h5>@comicBook.DisplayText</h5>
+                <h5><a href="ComicBooks/Detail/@comicBook.Id">@comicBook.DisplayText</a></h5>
+                @*<h5>@Html.ActionLink(comicBook.DisplayText, "ComicBooks/Detail", new { id = comicBook.Id})</h5>*@
+            <a href="ComicBooks/Detail/@comicBook.Id">
                 <img src="~/images/@comicBook.CoverImageFileName"
                      alt="@comicBook.DisplayText"
-                     class="img-responsive" 
-                     style="height: 400px;"
-                     />
-            </div>
+                     class="img-responsive"
+                     style="height: 400px;" />
+            </a>
+</div>
         }
 
 
