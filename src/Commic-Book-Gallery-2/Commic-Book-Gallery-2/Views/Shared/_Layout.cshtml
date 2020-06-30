@@ -34,6 +34,17 @@
             </div>
         </nav>
     </header>
+
+    @if (ViewBag.ShowBackBar != null && ViewBag.ShowBackBar == true)
+    {
+        <div class="backbar">
+            <div class="container">
+                @*@Html.ActionLink("Return to list", "Index", null, new { @class = "btn btn-default" })*@
+                <a class="btn btn-default" href="/">Return to List</a>
+            </div>
+        </div>
+    }
+
     <div class="container">
         <main role="main" class="pb-3">
             @RenderBody()
