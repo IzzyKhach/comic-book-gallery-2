@@ -16,19 +16,19 @@ namespace Commic_Book_Gallery_2.Controllers
         //    return "Hello from the comic books controller!";
         //}
 
-        private ComicBookRepository _comicBookRepository = null;
+        //private ComicBookRepository _comicBookRepository = null;
 
-        public ComicBooksController()
-        {
-            _comicBookRepository = new ComicBookRepository();
-        }
+        //public ComicBooksController()
+        //{
+        //    _comicBookRepository = new ComicBookRepository();
+        //}
 
-        public ActionResult Index()
-        {
-            var comicBooks = _comicBookRepository.GetComicBooks();
+        //public ActionResult Index()
+        //{
+        //    var comicBooks = _comicBookRepository.GetComicBooks();
 
-            return View(comicBooks);
-        }
+        //    return View(comicBooks);
+        //}
 
 
         public ActionResult Detail(int id)
