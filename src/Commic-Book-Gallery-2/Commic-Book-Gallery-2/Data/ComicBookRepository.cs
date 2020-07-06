@@ -58,7 +58,7 @@ namespace Commic_Book_Gallery_2.Data
                 },
                 Favorite = false
             }
-    };
+        };
 
         public ComicBook[] GetComicBooks()
         {
